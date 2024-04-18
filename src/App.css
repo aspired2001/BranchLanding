@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: sticky;
+    margin-top: 20px;
+    top: 0;
+}
+
+.header {
+    margin-left: 40px;
+}
+
+.come {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comehead {
+    font-size: 10vw;
+    /* Adjust font size as needed */
+    color: white;
+    text-align: center;
+}
+.HeaderWa{
+    margin-left: 41px;
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+
+
+
+.locations-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.locations-heading {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.locations-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.locations-list li {
+    font-size: 26px;
+    color: #e4dcdc;
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .locations-heading {
+        font-size: 20px;
+    }
+
+    .locations-list li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .locations-heading {
+        font-size: 18px;
+    }
+
+    .locations-list li {
+        font-size: 14px;
+    }
+}
+
+
+
+.offices-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.offices-heading {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #353434;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .offices-heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .offices-heading {
+        font-size: 18px;
+    }
+}
