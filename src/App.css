@@ -26,6 +26,10 @@ body {
 
 .header {
     margin-left: 40px;
+    font-size: 24px;
+    /* Default font size */
+    font-size: clamp(24px, 4vw, 40px);
+    /* Responsive font size */
 }
 
 .come {
@@ -43,10 +47,13 @@ body {
     color: white;
     text-align: center;
 }
-.HeaderWa{
+.HeaderWa {
     margin-left: 41px;
     padding-top: 10px;
     font-size: 19px;
+    /* Default font size */
+    font-size: clamp(19px, 3vw, 26px);
+    /* Responsive font size */
 }
 
 
